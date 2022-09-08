@@ -2,7 +2,7 @@ name: fepredict
 channels:
   - defaults
   - conda-forge
-  - pytorch
+  # - pytorch
   # - fastai
 dependencies:
   - python>=3.6
@@ -11,6 +11,8 @@ dependencies:
   - numpy
   - scipy
   - pandas
+  - xlrd  # pandas Excel _reading_
+  - fastparquet  # pandas PARQUET support
   - tqdm
   - click
   - ipython

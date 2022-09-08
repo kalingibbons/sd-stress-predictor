@@ -12,7 +12,7 @@ In order to set up the necessary environment:
 
 1. review and uncomment what you need in `environment.yml` and create an environment `fepredict` with the help of [conda]:
    ```
-   conda env create -f environment.yml
+   conda env create -f environment.yml -n fepredict  # use mamba for more speed
    ```
 2. activate the new environment with:
    ```
@@ -57,6 +57,9 @@ Then take a look into the `scripts` and `notebooks` folders.
    ```bash
    conda env update -f environment.lock.yml --prune
    ```
+
+> **_NOTE:_** Always update and commit environment.lock.yml to git before updating the environment.
+
 ## Project Organization
 
 ```
