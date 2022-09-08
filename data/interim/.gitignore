@@ -3,3 +3,5 @@
 # Except this file
 !.gitignore
 !*.dvc
+# Temporary for passing data to team
+!*.mat
