@@ -2,5 +2,3 @@
 *
 # Except this file
 !.gitignore
-# Temporary for passing data to team
-!*.parquet
