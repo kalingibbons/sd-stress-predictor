@@ -20,6 +20,9 @@ dependencies:
   - matplotlib
   - ipympl  # interactive matplotlib plots
   - seaborn
+  - pyvista
+  - ipyvtklink  # interactive jupyter pyvista plots
+  - meshio=5.0.2
   # - altair
   # - yellowbrick
   # ML, STATS & DEEP LEARNING
